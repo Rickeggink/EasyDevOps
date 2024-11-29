@@ -1,0 +1,15 @@
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\bin\Debug\net9.0\EasyDevOps.exe
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\bin\Debug\net9.0\EasyDevOps.deps.json
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\bin\Debug\net9.0\EasyDevOps.runtimeconfig.json
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\bin\Debug\net9.0\EasyDevOps.dll
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\bin\Debug\net9.0\EasyDevOps.pdb
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.AssemblyInfoInputs.cache
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.AssemblyInfo.cs
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.csproj.CoreCompileInputs.cache
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.sourcelink.json
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.dll
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\obj\Debug\net9.0\refint\EasyDevOps.dll
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.pdb
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\obj\Debug\net9.0\EasyDevOps.genruntimeconfig.cache
+C:\Users\ricke\Documents\GitHub\EasyDevOps\frontend\EasyDevOps\obj\Debug\net9.0\ref\EasyDevOps.dll
