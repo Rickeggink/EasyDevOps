@@ -1,0 +1,5 @@
+mkdir frontend backend scripts
+echo "# EasyDevOps" > README.md
+echo "# Frontend Component" > frontend/README.md
+echo "# Backend Component" > backend/README.md
+echo "# Scripts voor EasyDevOps" > scripts/README.md
