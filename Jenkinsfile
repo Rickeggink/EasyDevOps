@@ -2,25 +2,25 @@ pipeline {
     agent any
 
     environment {
-        DOTNET_VERSION = '8.0.100'
+        DOTNET_VERSION = '8.0.100'  // .NET version to install
     }
 
     stages {
         stage('Checkout Code') {
             steps {
-                // Clone je GitHub-repository
+                // Checkout the source code from the repository
                 checkout scm
             }
         }
 
         stage('Setup Environment') {
             steps {
-                // Installeer .NET SDK als het niet beschikbaar is
+                // Install .NET SDK if it is not already installed
                 sh '''
                 if ! command -v dotnet &> /dev/null
                 then
                     echo "Installing .NET SDK..."
-                    wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh
+                    curl -sSL https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh -o dotnet-install.sh
                     chmod +x dotnet-install.sh
                     ./dotnet-install.sh --version $DOTNET_VERSION
                 fi
@@ -30,6 +30,7 @@ pipeline {
 
         stage('Build Frontend') {
             steps {
+                // Navigate to the 'frontend' directory and run the 'dotnet build' command
                 dir('frontend') {
                     sh 'dotnet build'
                 }
@@ -38,6 +39,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
+                // Navigate to the 'frontend' directory and run the 'dotnet test' command
                 dir('frontend') {
                     sh 'dotnet test'
                 }
@@ -46,6 +48,7 @@ pipeline {
 
         stage('Run Application') {
             steps {
+                // Navigate to the 'frontend' directory and run the 'dotnet run' command
                 dir('frontend') {
                     sh 'dotnet run'
                 }
@@ -55,10 +58,12 @@ pipeline {
 
     post {
         success {
-            echo 'Pipeline uitgevoerd met succes!'
+            // Post success actions
+            echo 'Pipeline executed successfully!'
         }
         failure {
-            echo 'Pipeline mislukt!'
+            // Post failure actions
+            echo 'Pipeline failed!'
         }
     }
 }
